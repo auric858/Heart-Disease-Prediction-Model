@@ -2,7 +2,7 @@
 *Project under IBM PBEL AIML Program*
 
 ---
-
+*- by Auric Dutt*
 ## 📘 Overview
 This project is a **Machine Learning-based Heart Disease Prediction System** that helps identify whether a person is likely to have heart disease based on medical attributes such as age, cholesterol level, and blood pressure.  
 It is deployed as an interactive **Streamlit Web App** that allows users to visualize data, explore model performance, and make live predictions.
