@@ -15,7 +15,7 @@ with open("heart_disease_pred_model.pkl","rb") as f2:
 st.set_page_config(page_title="Heart Disease Prediction ", layout="wide")
 image=Image.open("image.jpg")
 image2=Image.open("roc_curve.png")
-df=pd.read_gcsv("heart.csv")
+df=pd.read_csv("heart.csv")
 
 
 menu = ["🏠 Home", "📊 Data Overview","📉 Data Visualization","🧠 Prediction", "📈 Model Performance", "ℹ️ About"]
