@@ -303,7 +303,7 @@ elif choice=="🧠 Prediction":
             st.warning("🫀 The model predicts that this patient **is likely to have heart disease.**")
             st.write("\n")
             st.write(f"**Prediction Confidence :** {proba:.2f}%")
-            st.markdown(">**“Higher confidence indicates the model is more certain about the result.**")
+            st.markdown(">**“Higher confidence indicates the model is more certain about the result.“**")
             st.markdown("---")
             st.subheader("⚠️ **Possible contributing factors:**")
             st.markdown("""
@@ -316,7 +316,7 @@ elif choice=="🧠 Prediction":
             st.success("🫀 The model predicts that this patient **is unlikely to have heart disease.**")
             st.write("\n")
             st.write(f"**Prediction Confidence :** {100 - proba:.2f}%")
-            st.markdown(">**“Higher confidence indicates the model is more certain about the result.**")
+            st.markdown(">**“Higher confidence indicates the model is more certain about the result.“**")
             st.markdown("---")
             st.success("✅ **Great! Keep your heart healthy.**")
             st.markdown("""
